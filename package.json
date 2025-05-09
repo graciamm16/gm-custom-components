@@ -15,7 +15,7 @@
   "license": "MIT",
   "homepage": "https://gracia-martin.com",
   "repository": {
-    "url": "https://TODO...",
+    "url": "https://github.com/graciamm16/gm-custom-components",
     "type": "git"
   },
   "files": [
@@ -39,7 +39,8 @@
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=chpt_174e6bf4f2176cd",
     "clean": "rimraf dist/",
-    "copyfiles": "copyfiles -u 1 src/**/*.css dist/"
+    "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
+    "push:npm": "np" 
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.6",
@@ -64,6 +65,7 @@
     "eslint-plugin-storybook": "^0.12.0",
     "globals": "^15.15.0",
     "i": "^0.3.7",
+    "np": "^10.2.0",
     "playwright": "^1.52.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -81,5 +83,8 @@
   },
   "dependencies": {
     "npm": "^10.8.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
   }
 }
